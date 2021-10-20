@@ -12,6 +12,6 @@ public class SearchTests {
 
         $(byName("kp_query")).setValue("Only Murders in the Building").pressEnter();
 
-        $(".styles_link__1dkjp").shouldHave(text("Стив Мартин"));
+        $(".styles_link__1dkjp").shouldHave(text("Стиafk Мартин"));
     }
 }
